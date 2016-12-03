@@ -38,6 +38,10 @@ p {
   align-items: center;
 }
 
+.flexslider {
+
+}
+
 /*Navigation*/
 
 .navigation {
@@ -120,15 +124,15 @@ p {
 }
 
 .img1 {
-    background-image: url("../images/ajprofile.jpg");
+    background-image: url("../images/img001.jpg");
 }
 
 .img2 {
-    background-image: url("../images/promo1.jpg");
+    background-image: url("../images/img005.jpg");
 }
 
 .img3 {
-    background-image: url("../images/promo2.jpg");
+    background-image: url("../images/img003.jpg");
 }
 
 /*Footer*/
