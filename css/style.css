@@ -37,8 +37,46 @@ h4 {
   font-weight: normal;
   font-size: 42px;
   color: rgb(255, 255, 255);
+  margin-bottom: 0;
   text-align: center;
   padding-top: 40px;
+}
+
+.credit {
+  font-family: 'Teko', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#start {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: solid 2px rgb(255, 255, 255);
+  width: 60%;
+  text-align: center;
+}
+
+.contact {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 10px ;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.copy {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 10px ;
+  text-align: center;
 }
 
 /*Navigation Styles*/
@@ -72,8 +110,9 @@ nav a:hover {
   color: rgb(193, 39, 45);
 }
 
-nav a.active {
+nav li.active {
   color: rgb(193, 39, 45);
+  text-decoration: underline;
   cursor: default;
 }
 
@@ -93,7 +132,7 @@ nav a.active {
 
 #sect2 {
   background-color: rgb(193, 39, 45);
-  height: 250px;
+  height: 300px;
 }
 
 /*Media Queries*/
@@ -132,6 +171,17 @@ nav a.active {
     max-width: 75%;
   }
 
+  #start {
+    margin: 200px auto 0;
+    width: 300px;
+    text-align: center;
+  }
+
+  .credit {
+    text-align: right;
+    margin-right: 10%;
+  }
+
   /*Navigation Style*/
   nav {
     align-self: flex-end;
@@ -148,6 +198,15 @@ nav a.active {
   /*Section Style*/
   #sect1 {
     display: flex;
+  }
+
+  #sect2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #inspire {
+    width: 50%;
   }
 
 }
