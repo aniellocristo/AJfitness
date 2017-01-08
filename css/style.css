@@ -35,7 +35,7 @@ h4 {
 .quote {
   font-family: 'Teko', sans-serif;
   font-weight: normal;
-  font-size: 42px;
+  font-size: 35px;
   color: rgb(255, 255, 255);
   margin-bottom: 0;
   text-align: center;
@@ -45,7 +45,7 @@ h4 {
 .credit {
   font-family: 'Teko', sans-serif;
   font-style: italic;
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 10px;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -79,12 +79,22 @@ h4 {
   text-align: center;
 }
 
+/*Navigation Toggle Styles*/
+
+a.mobile_menu {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
 /*Navigation Styles*/
 nav {
   font-family: 'Teko', sans-serif;
   font-weight: normal;
   font-size: 24px;
   margin: 6px 0;
+  height: 0px;
+  overflow: hidden;
 }
 
 nav ul {
@@ -139,8 +149,17 @@ nav li.active {
 @media (min-width: 600px) {
 
   /*Navigation Style*/
+  .navheader {
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
   nav {
     margin-top: 30px;
+    height: auto;
+    padding: 5px;
   }
 
   nav ul {
@@ -149,6 +168,10 @@ nav li.active {
 
   nav li {
     margin: -5px 15px;
+  }
+
+  .arrow {
+    display: none;
   }
 
 @media (min-width: 750px) {
