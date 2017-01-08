@@ -24,6 +24,13 @@ h4 {
   text-align: center;
 }
 
+p {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
 .descript {
   font-family: 'Teko', sans-serif;
   font-weight: normal;
@@ -62,6 +69,17 @@ h4 {
   text-align: center;
 }
 
+.start2 {
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgb(193, 39, 45);
+  margin: 0 auto;
+  border: solid 2px rgb(193, 39, 45);
+  width: 200px;
+  text-align: center;
+}
+
 .contact {
   font-family: 'Teko', sans-serif;
   font-weight: normal;
@@ -77,6 +95,11 @@ h4 {
   font-size: 16px;
   margin: 10px ;
   text-align: center;
+}
+
+.feature {
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 /*Navigation Toggle Styles*/
@@ -105,7 +128,6 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
   text-align: center;
   margin: 3% 0;
 }
@@ -140,9 +162,19 @@ nav li.active {
   height: auto;
 }
 
+.topimg2 {
+  width: 75px;
+  height: auto;
+}
+
 #sect2 {
   background-color: rgb(193, 39, 45);
   height: 300px;
+}
+
+#sect3 {
+  background-color: rgb(193, 39, 45);
+  height: 3px;
 }
 
 /*Media Queries*/
@@ -215,7 +247,7 @@ nav li.active {
   }
 
   nav li {
-    margin: -5px 15px;
+    margin: 0px 15px;
   }
 
   /*Section Style*/
