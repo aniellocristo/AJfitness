@@ -19,7 +19,7 @@ h4 {
   font-weight: normal;
   font-size: 30px;
   color: rgb(193, 39, 45);
-  max-width: 60%;
+  max-width: 75%;
   margin: 15px 0 5px;
   text-align: center;
 }
@@ -51,7 +51,7 @@ h4 {
   text-align: center;
 }
 
-#start {
+.start {
   font-family: 'Teko', sans-serif;
   font-weight: normal;
   font-size: 32px;
@@ -159,7 +159,7 @@ nav li.active {
   nav {
     margin-top: 30px;
     height: auto;
-    padding: 5px;
+    padding: 10px;
   }
 
   nav ul {
@@ -194,7 +194,7 @@ nav li.active {
     max-width: 75%;
   }
 
-  #start {
+  .start {
     margin: 200px auto 0;
     width: 300px;
     text-align: center;
