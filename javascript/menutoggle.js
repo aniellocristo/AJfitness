@@ -12,4 +12,21 @@ $(document).ready(function() {
 
   });
 
+  // Button Switch
+  $(".button1").mouseover(function(){
+    $(this).children(".hover1").fadeIn().show();
+  });
+
+  $(".button1").mouseleave(function(){
+    $(this).children(".hover1").fadeOut();
+  });
+
+  $(".button2").mouseover(function(){
+    $(this).children(".hover2").fadeIn().show();
+  });
+
+  $(".button2").mouseleave(function(){
+    $(this).children(".hover2").fadeOut();
+  });
+
 });
